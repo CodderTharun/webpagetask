@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Home</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and font styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header and Navigation */
+        header {
+            background-color: #333;
+            padding: 1rem 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #04b4ae; /* Aqua color on hover */
+        }
+
+        /* Main section */
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #fff;
+            padding: 4rem 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            margin: 4rem auto;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        .hero h2 {
+            font-size: 1.8rem;
+            color: #444;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            color: #666;
+            margin-bottom: 2rem;
+        }
+
+        /* Image Styling */
+        .hero img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Makes the image circular */
+            margin-bottom: 1.5rem;
+            object-fit: cover; /* Ensures the image scales nicely */
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <!-- Profile Image -->
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_kFka7QR-P00FPuzCNBRUtGRhdfDJeDMrw&s" alt="Tharun's Profile Picture">
+
+            <h1>Hello, I'm Tharun</h1>
+            <h2>Second Year Student at UVCE, EEE</h2>
+            <p>Passionate about IoT, Renewable Energy, and EVs.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+</body>
+</html>
